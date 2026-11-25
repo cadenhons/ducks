@@ -11,5 +11,5 @@ library(rnaturalearth)
 
 ```{r}
 mallards <- read_csv("data/mallards.csv")
-mallards |> slice_head(n = 10)
+mallards |> count(duck_id, sort = TRUE)
 ```
