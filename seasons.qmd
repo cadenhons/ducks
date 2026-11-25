@@ -21,3 +21,17 @@ mallards |>
 ```{r}
 summary(mallards$speed)
 ```
+
+```{r}
+mallards |>
+  filter(!is.na(speed), speed <= 30) |>
+  mutate(month = factor(month, levels = month.abb, ordered = TRUE)) |>
+  ggplot(aes(x = speed, y = month)) +
+  geom_density_ridges() +
+  labs(
+    title = "Mallard speed distributions by month",
+    x = "Speed (m/s)",
+    y = "Month"
+  ) +
+  theme_ridges()
+```
