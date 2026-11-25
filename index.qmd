@@ -1,1 +1,5 @@
 # Mallard Duck Movement
+
+Lake Constance lies in Central Europe, where Germany, Switzerland, and Austria meet. This site follows 52 mallards across 83,279 GPS fixes from the [PPBDS `misc.tutorials` dataset](https://github.com/PPBDS/misc.tutorials/blob/main/inst/tutorials/ducks/data/mallards.csv).
+
+Most fixes cluster near the lake. In spring and summer, some tracked ducks range north and east, reaching about 54°N and 24°E; by autumn and winter, fixes are concentrated back near Lake Constance. Explore the [Map](map.qmd) and [Seasons](seasons.qmd) pages to see their locations and seasonal patterns.
