@@ -17,3 +17,7 @@ mallards |>
   count(month, month_num, name = "n_fixes") |>
   arrange(month_num)
 ```
+
+```{r}
+summary(mallards$speed)
+```
