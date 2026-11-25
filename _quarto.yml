@@ -3,6 +3,10 @@ project:
 
 website:
   title: "Mallard Duck Movement"
+  navbar:
+    left:
+      - text: "Map"
+        href: map.qmd
 
 execute:
   echo: false

@@ -1,0 +1,15 @@
+---
+title: "Map"
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(sf)
+library(rnaturalearth)
+```
+
+```{r}
+mallards <- read_csv("data/mallards.csv")
+mallards |> slice_head(n = 10)
+```
