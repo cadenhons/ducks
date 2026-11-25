@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Mallard Duck Movement\nLake Constance lies in Central Europe, where Germany, Switzerland, and Austria meet. This site follows 52 mallards across 83,279 GPS fixes from the PPBDS misc.tutorials dataset.\nMost fixes cluster near the lake. In spring and summer, some tracked ducks range north and east, reaching about 54°N and 24°E; by autumn and winter, fixes are concentrated back near Lake Constance. Explore the Map and Seasons pages to see their locations and seasonal patterns."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "Rows: 83279 Columns: 7\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): duck_id, taxon\ndbl  (4): lat, long, speed, heading\ndttm (1): timestamp\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+  },
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Seasons",
+    "section": "",
+    "text": "# A tibble: 12 × 3\n   month month_num n_fixes\n   &lt;ord&gt;     &lt;dbl&gt;   &lt;int&gt;\n 1 Jan           1    3266\n 2 Feb           2    4960\n 3 Mar           3    7524\n 4 Apr           4    6369\n 5 May           5    3423\n 6 Jun           6    2842\n 7 Jul           7    5748\n 8 Aug           8    9659\n 9 Sep           9   20977\n10 Oct          10    9890\n11 Nov          11    4825\n12 Dec          12    3796\n\n\n\n\n    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.      NAs \n  0.0000   0.1000   0.2200   0.4156   0.4400 127.4500     2312 \n\n\n\n\nPicking joint bandwidth of 0.0381"
+  }
+]
