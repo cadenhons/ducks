@@ -3,3 +3,6 @@ project:
 
 website:
   title: "Mallard Duck Movement"
+
+execute:
+  echo: false
