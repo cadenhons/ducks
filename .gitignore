@@ -1,6 +1,7 @@
 /_site/
 /.quarto/
 /*_files/
-/map_cache/
+/*_cache/
+data/mallards.rds
 
 **/*.quarto_ipynb
