@@ -10,6 +10,7 @@ library(rnaturalearth)
 ```
 
 ```{r}
+#| cache: true
 mallards <- read_csv("data/mallards.csv") |>
   mutate(
     timestamp = ymd_hms(timestamp),
